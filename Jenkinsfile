@@ -9,6 +9,7 @@ pipeline {
             steps {
                 //git branch: branch, credentialsId: 'GitCredentials', url: scmUrl
                 echo "checkout git"
+                echo "checkout git 2"
             }
         }
 
